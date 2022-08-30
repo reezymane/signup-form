@@ -39,6 +39,25 @@ img {
     width: auto;
 }
 
+footer {
+    height: 5vh;
+    width: 100%;
+    position: relative;
+    top: 75vh;
+    margin: 0px;
+    padding: 0;
+    color: rgb(255, 241, 223);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+a {
+    color: rgb(255, 241, 223);
+  }
+
 .container2 {
     display: flex;
     flex-direction: column;
