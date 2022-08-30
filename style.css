@@ -1,5 +1,9 @@
+@font-face {
+    font-family: speedo;
+    src: url(./font/speedo.otf);
+}
+
 body {
-    background-color: red;
     display: flex;
     margin: 0vh;
     padding: 0vh;
@@ -10,6 +14,29 @@ body {
     background-size: 40vw 100vh;
     height: 100vh;
     width: 40vw;
+    position: relative;
+}
+
+.banner {
+    background-color: rgb(218, 218, 218, 0.3);
+    height: 16vh;
+    width: 100%;
+    padding: 2vh 0vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 0.5vw;
+    font-family: speedo;
+    font-size: 85px;
+    text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+    color: beige;
+    position: relative;
+    top: 20vh;
+}
+
+img {
+    height: 100%;
+    width: auto;
 }
 
 .container2 {
