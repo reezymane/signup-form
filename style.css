@@ -102,6 +102,8 @@ form {
 legend {
     width: 100%;
     font-size: 20px;
+    font-weight: 530;
+    font-style: italic;
 }
 
 input, label {
@@ -121,5 +123,25 @@ input {
     border-color: rgb(218, 218, 218);
     border-radius: 5px;
     border-width: 1px;
+    font-size: 15px;
+    padding: 0.3vh;
+}
+
+button {
+    border-radius: 20px 2px;
+    border-width: 1px;
+    border-color: beige;
+    padding: 10px 30px;
+    font-size: 17px;
+    font-weight: 550;
+    margin-bottom: 1vh;
+    background-image: linear-gradient(to bottom right, rgb(179, 58, 37), rgb(214, 180, 180));
+    text-shadow: -0.2px 0 black, 0 0.2px black, 0.2px 0 black, 0 -0.2px black;
+    color: beige;
+}
+
+.bottom a {
+    color: rgb(179, 58, 37);
+    font-weight: 600;
 }
 
