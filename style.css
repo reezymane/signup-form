@@ -32,6 +32,7 @@ body {
     color: beige;
     position: relative;
     top: 20vh;
+    box-shadow: 3px 0px 2px -2px rgb(170, 170, 170);
 }
 
 img {
@@ -130,7 +131,7 @@ input {
 button {
     border-radius: 20px 2px;
     border-width: 1px;
-    border-color: beige;
+    border-color: rgb(176, 176, 176);
     padding: 10px 30px;
     font-size: 17px;
     font-weight: 550;
@@ -138,6 +139,7 @@ button {
     background-image: linear-gradient(to bottom right, rgb(179, 58, 37), rgb(214, 180, 180));
     text-shadow: -0.2px 0 black, 0 0.2px black, 0.2px 0 black, 0 -0.2px black;
     color: beige;
+    box-shadow: 0px 0px 10px grey;
 }
 
 .bottom a {
